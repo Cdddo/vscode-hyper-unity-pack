@@ -3,12 +3,29 @@
     "displayName": "Hyper Unity Pack",
     "description": "Unity3D extensions pack",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cdddo/hyper-unity-pack"
+    },
+    "author": {
+        "name": "Cdddo"
+    },
+    "bugs": {
+        "url": "https://github.com/Cdddo/hyper-unity-pack"
+    },
+    "publisher": "Cdddo",
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
         "Extension Packs"
     ],
+    "keywords": [
+        "unity",
+        "extensions",
+        "gamedev",
+    ],
+    "homepage": "https://github.com/Cdddo/hyper-unity-pack",
     "extensionPack": [
         "ms-dotnettools.csharp",
         "Unity.unity-debug",
