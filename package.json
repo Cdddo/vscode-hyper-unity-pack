@@ -2,26 +2,26 @@
     "name": "hyper-unity-pack",
     "displayName": "Hyper Unity Pack",
     "description": "Unity3D extensions pack",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
-        "aaron-bond.better-comments",
+    "extensionPack": [
         "ms-dotnettools.csharp",
         "Unity.unity-debug",
-        "eamodio.gitlens",
-        "ms-vsliveshare.vsliveshare",
-        "DavidAnson.vscode-markdownlint",
-        "tal7aouy.rainbow-bracket",
-        "Ho-Wan.setting-toggle",
-        "Cdddo.unity-code-snippets-newline", 
-        "dgileadi.unity-event-lens", 
-        "janisdd.vscode-edit-csv", 
+        "Cdddo.unity-code-snippets-newline",
+        "dgileadi.unity-event-lens",
         "Tobiah.unity-tools",
+        "usernamehw.errorlens",
+        "aaron-bond.better-comments",
+        "ms-vsliveshare.vsliveshare",
+        "eamodio.gitlens",
+        "Ho-Wan.setting-toggle",
+        "DavidAnson.vscode-markdownlint",
+        "janisdd.vscode-edit-csv",
         "SecretLab.yarn-spinner"
     ]
 }
