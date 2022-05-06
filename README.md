@@ -1,6 +1,7 @@
 # Hyper Unity Extension Pack
 
 This extension pack includes various useful tools for working with Unity3D in Visual Studio Code.
+You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7f05f4758b856d21e1d4199) to your settings.json for the recommended configuration.
 
 ## Essential Extensions
 
@@ -32,10 +33,8 @@ This extension pack includes various useful tools for working with Unity3D in Vi
 
 - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Styling rules to encourage standards and consistency for Markdown files.
 
+### Other Extensions
+These extensions are not included in the pack, but you might also find them useful:
 - [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) - Allows you to edit csv (comma separated values) files with an Excel-like table UI.
 
 - [Yarn Spinner Support](https://marketplace.visualstudio.com/items?itemName=SecretLab.yarn-spinner) - [Yarn Spinner](https://yarnspinner.dev) is an open source tool that helps you build branching narrative and dialogue in games. This extension adds support for the Yarn Spinner dialogue language used in .yarn files.
-
-## Recommended Settings
-
-You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7f05f4758b856d21e1d4199) to your settings.json for the recommended configuration.
