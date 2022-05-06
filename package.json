@@ -5,13 +5,13 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Cdddo/hyper-unity-pack"
+        "url": "https://github.com/Cdddo/vscode-hyper-unity-pack"
     },
     "author": {
         "name": "Cdddo"
     },
     "bugs": {
-        "url": "https://github.com/Cdddo/hyper-unity-pack"
+        "url": "https://github.com/Cdddo/vscode-hyper-unity-pack"
     },
     "publisher": "Cdddo",
     "engines": {
@@ -23,9 +23,9 @@
     "keywords": [
         "unity",
         "extensions",
-        "gamedev",
+        "gamedev"
     ],
-    "homepage": "https://github.com/Cdddo/hyper-unity-pack",
+    "homepage": "https://github.com/Cdddo/vscode-hyper-unity-pack",
     "extensionPack": [
         "ms-dotnettools.csharp",
         "Unity.unity-debug",
