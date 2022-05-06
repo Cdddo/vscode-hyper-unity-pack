@@ -26,6 +26,7 @@
         "gamedev"
     ],
     "homepage": "https://github.com/Cdddo/vscode-hyper-unity-pack",
+    "icon": "images/icon.png",
     "extensionPack": [
         "ms-dotnettools.csharp",
         "Unity.unity-debug",
