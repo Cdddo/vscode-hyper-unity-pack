@@ -1,0 +1,67 @@
+name: Publish VS Code Extension
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push request events with tag
+  push:
+    tags:
+      - "*"
+      
+  # Triggers the workflow on push or pull request events but only for the master branch
+  #push:
+    #branches: [ master ]
+  #pull_request:
+    #branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "publish"
+  publish:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        
+      - name: Install Node.js, NPM and Yarn
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          
+      - name: Install Dependencies
+        run: npm install
+      
+      #- name: Publish to Open VSX Registry
+        #uses: HaaLeo/publish-vscode-extension@v1
+        #with:
+          #pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          
+      - name: Publish to Visual Studio Code Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          # Personal access token
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          # Path to the vsix file to be published. Cannot be used together with packagePath.
+          #extensionFile: # optional
+          # Use the registry API at this base URL
+          registryUrl: https://marketplace.visualstudio.com # optional, default is https://open-vsx.org
+          # Path to the extension to be packaged and published. Cannot be used together with extensionFile.
+          #packagePath: # optional, default is ./
+          # Prepend all relative links in README.md with this URL.
+          #baseContentUrl: # optional
+          # Prepend all relative image links in README.md with this URL.
+          #baseImagesUrl: # optional
+          # Use yarn instead of npm while packing extension files.
+          #yarn: # optional
+          # Set this option to "true" to package your extension but do not publish it.
+          #dryRun: # optional
+          # Allow publishing extensions to the visual studio marketplace which use a proposed API (enableProposedApi: true).
+          #noVerify: # optional
+          # Publish a version marked as a Pre-Release.
+          #preRelease: # optional
