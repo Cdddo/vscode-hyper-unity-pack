@@ -1,6 +1,8 @@
 # Change Log
 
-All notable changes to the "hyper-unity-pack" extension pack will be documented in this file.
+## [1.0.1]
+
+- Extensions that aren't for common use removed from pack and now are only linked in the readme.
 
 ## [1.0.0]
 

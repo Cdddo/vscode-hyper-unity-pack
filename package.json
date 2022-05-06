@@ -2,7 +2,7 @@
     "name": "hyper-unity-pack",
     "displayName": "Hyper Unity Pack",
     "description": "Unity3D extensions pack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/Cdddo/vscode-hyper-unity-pack"
@@ -38,8 +38,6 @@
         "ms-vsliveshare.vsliveshare",
         "eamodio.gitlens",
         "Ho-Wan.setting-toggle",
-        "DavidAnson.vscode-markdownlint",
-        "janisdd.vscode-edit-csv",
-        "SecretLab.yarn-spinner"
+        "DavidAnson.vscode-markdownlint"
     ]
 }
