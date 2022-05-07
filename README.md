@@ -2,7 +2,7 @@
 
 This extension pack includes several useful tools for working with Unity3D in Visual Studio Code.
 You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7f05f4758b856d21e1d4199) to your settings for the recommended configuration.
-To open your user settings file, press F1 and then begin typing `settings.json`  and click or press enter on `Open Settings (JSON)`.
+To open your user settings file, press F1 and then begin typing `settings.json` and click or press enter on `Open Settings (JSON)`.
 
 ## Essential Extensions
 
