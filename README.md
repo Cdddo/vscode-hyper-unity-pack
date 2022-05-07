@@ -1,7 +1,8 @@
 # Hyper Unity Extension Pack
 
 This extension pack includes several useful tools for working with Unity3D in Visual Studio Code.
-You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7f05f4758b856d21e1d4199) to your settings.json for the recommended configuration.
+You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7f05f4758b856d21e1d4199) to your settings for the recommended configuration.
+To open your user settings file, press F1 and then begin typing `settings.json`  and click or press enter on `Open Settings (JSON)`.
 
 ## Essential Extensions
 
@@ -23,20 +24,22 @@ You can choose to copy [these settings](https://gist.github.com/Cdddo/ca8b21cbe7
 
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Helps to categorise your comments with custom styling.
 
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) - Finds comment tags like BUG, TODO and FIXME and displays them in a tree view in a panel and lets you quickly jump to the corresponding line.
+
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - Enables you to collaboratively edit and debug with others in real time.
 
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Helps you to navigate and explore Git repositories, visualize code authorship, view file history and compare file versions, among other features.
 
-- [Setting Toggle](https://marketplace.visualstudio.com/items?itemName=Ho-Wan.setting-toggle) - Adds buttons to let you toggle up to 3 custom VS Code settings.
+- [Setting Toggle](https://marketplace.visualstudio.com/items?itemName=Ho-Wan.setting-toggle) - Adds buttons to let you toggle up to 3 custom VS Code settings, for example toggling Code Lens or Inlay Hints.
 
-## File Support
+- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Styling rules to encourage standards and consistency for Markdown (.md) files.
 
-- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Styling rules to encourage standards and consistency for Markdown files.
+## Other Extensions
 
-### Other Extensions
+These extensions are **not** included in the pack, but you might also find them useful:
 
-These extensions are not included in the pack, but you might also find them useful:
+- [GistPad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs) - Allows you to edit GitHub Gists and repositories from VS Code. You can open, create, delete, fork and star gists and repositories, and then seamlessly begin editing files as if they were local, without ever cloning, pushing or pulling anything.
 
 - [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) - Allows you to edit csv (comma separated values) files with an Excel-like table UI.
 
-- [Yarn Spinner Support](https://marketplace.visualstudio.com/items?itemName=SecretLab.yarn-spinner) - [Yarn Spinner](https://yarnspinner.dev) is an open source tool that helps you build branching narrative and dialogue in games. This extension adds support for the Yarn Spinner dialogue language used in .yarn files.
+- [Yarn Spinner Support](https://marketplace.visualstudio.com/items?itemName=SecretLab.yarn-spinner) - This extension adds support for the Yarn Spinner dialogue language used in .yarn files. [Yarn Spinner](https://yarnspinner.dev) is an open source tool that helps you build branching narrative and dialogue in Unity.

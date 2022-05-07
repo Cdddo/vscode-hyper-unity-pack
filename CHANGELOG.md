@@ -1,4 +1,9 @@
-# Change Log
+# Changelog
+
+## [1.1.0]
+
+- Added TodoTree to extensions pack
+- Added GistPad to other extensions list
 
 ## [1.0.1]
 
