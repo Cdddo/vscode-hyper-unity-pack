@@ -2,7 +2,7 @@
     "name": "hyper-unity-pack",
     "displayName": "Hyper Unity Pack",
     "description": "Unity3D extensions pack",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/Cdddo/vscode-hyper-unity-pack"
