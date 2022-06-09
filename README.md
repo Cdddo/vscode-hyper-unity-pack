@@ -18,6 +18,8 @@ To open your user settings file, press F1 and then begin typing `settings.json` 
 
 - [Unity Tools](https://marketplace.visualstudio.com/items?itemName=Tobiah.unity-tools) - Adds commands to search and open the Unity and Microsoft documentation, as well as the ability to generate preset folders for organizing your project.
 
+- [Unity Meta Files Watcher](https://marketplace.visualstudio.com/items?itemName=PTD.vscode-unitymeta) - Allows you to move and rename files in vscode while keeping Unity's meta files happy.
+
 ## General Coding Tools
 
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Makes error fixing easier by highlighting the entire line and showing the diagnostic message inline.
