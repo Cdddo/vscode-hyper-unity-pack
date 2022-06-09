@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.2.1]
+- Added Unity Meta Files Watcher
+
 ## [1.1.0]
 
 - Added TodoTree to extensions pack
