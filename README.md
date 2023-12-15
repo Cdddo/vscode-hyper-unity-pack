@@ -10,7 +10,7 @@ To open your user settings file, press F1 and then begin typing `settings.json` 
 
 ## Unity Tools
 
-- [Debugger for Unity](https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug) - Enables debugging Unity projects.
+- [Unity for VS Code](https://marketplace.visualstudio.com/items?itemName=VisualStudioToolsForUnity.vstuc) - Official integration that enables debugging Unity projects, adds Unity specific C# analyzers and refactorings, as well as code coloration for Unity file formats (.asmdef, .shader, .uss, .uxml).
 
 - [Unity Code Snippets Newline](https://marketplace.visualstudio.com/items?itemName=Cdddo.unity-code-snippets-newline) - Code faster with this snippet collection including all Unity methods with included XML documentation.
 

@@ -1,6 +1,11 @@
 # Changelog
 
+## [1.3.0]
+
+- Replaced deprecated Unity Debugger with new Unity integration by Microsoft
+
 ## [1.2.0]
+
 - Added Unity Meta Files Watcher
 
 ## [1.1.0]

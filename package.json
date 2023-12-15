@@ -2,7 +2,7 @@
     "name": "hyper-unity-pack",
     "displayName": "Hyper Unity Pack",
     "description": "Unity3D extensions pack",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/Cdddo/vscode-hyper-unity-pack"
@@ -29,7 +29,7 @@
     "icon": "images/icon.png",
     "extensionPack": [
         "ms-dotnettools.csharp",
-        "Unity.unity-debug",
+        "VisualStudioToolsForUnity.vstuc",
         "Cdddo.unity-code-snippets-newline",
         "dgileadi.unity-event-lens",
         "Tobiah.unity-tools",
